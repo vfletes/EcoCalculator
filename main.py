@@ -17,5 +17,5 @@ def main():
     print("You got a C on your environmental impact, might want to make some adjustments, but great start!")
   elif score <= 23 and score >= 16:
     print("You got a D on your environmental impact, might want to make some adjustments")
-  elif score <= 32 and score >= 24:
+  elif score < 32 and score >= 24:
     print("You got an F on your environmental impact, might want to make some adjustments")
